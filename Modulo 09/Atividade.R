@@ -7,16 +7,21 @@
 ## Por isso, marque somente as afirmativas que tiver certeza que são verdadeiras
 ## Na dúvida, não marque
 
-## Em algumas alternativas será necessário o uso do conjunto de dados iris, carregado a partir de data("iris"), será informado nas alternativas quando precisar utilizá-lo. A respeito de programação funcional do R, responda:
+## Em algumas alternativas será necessário o uso do conjunto de dados iris,
+## carregado a partir de data("iris"), será informado nas alternativas quando precisar utilizá-lo.
+## A respeito de programação funcional do R, responda:
 
-data('"iris"')
+data("iris")
+str(iris)
   
 ##   Escolha uma ou mais:
-## a. No R é recomendado utilizar funções prontas e que são computacionalmente eficiente do que estruturas de repetição como for e while.
-## false
+## a. No R é recomendado utilizar funções prontas e que são computacionalmente eficiente
+## do que estruturas de repetição como for e while.
+TRUE
 
-## b.A família de funções da base do R responsável por programação funcional é a família apply, e no tidyverse é o pacote lubridate
-## false
+## b.A família de funções da base do R responsável por programação funcional é a família apply,
+## e no tidyverse é o pacote lubridate
+FALSE
 
 ## c. O código for (j in 1:nrow(iris)){print(mean(j))} nos resulta na média de cada coluna do dataset iris
 for (j in 1:nrow(iris)){print(mean(j))}
